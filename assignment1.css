@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 1px solid cyan;
+}
+.item-1{
+    background-color: brown;
+    grid-column: 1/-1;
+}
+.item-2{
+    background-color: blueviolet;
+    grid-column: 1/4;
+}
+.item-3{
+    background-color: chocolate;
+}
+.item-4{
+    background-color: rgb(228, 115, 134);
+    grid-column: 1/-1;
+}
+section{
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 80px 300px 80px ;
+    grid-template-columns: repeat(3, 2fr) 250px;
+    gap: 20px;
+}
